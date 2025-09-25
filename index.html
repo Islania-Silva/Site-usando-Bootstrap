@@ -161,23 +161,74 @@
                         type="button" role="tab" aria-controls="espresso-pane" aria-selected="true">Expressos</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="cappuccinos-tab" data-bs-toggle="tab" data-bs-target="#cappuccinos-tab-pane"
-                        type="button" role="tab" aria-controls="cappuccinos-tab-pane" aria-selected="false">Cappuccinos</button>
+                    <button class="nav-link" id="cappuccinos-tab" data-bs-toggle="tab"
+                        data-bs-target="#cappuccinos-tab-pane" type="button" role="tab"
+                        aria-controls="cappuccinos-tab-pane" aria-selected="false">Cappuccinos</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="iced-coffe-tab" data-bs-toggle="tab" data-bs-target="#iced-coffe-tab-pane"
-                        type="button" role="tab" aria-controls="iced-coffe-tab-pane" aria-selected="false">Gelados</button>
+                    <button class="nav-link" id="iced-coffe-tab" data-bs-toggle="tab"
+                        data-bs-target="#iced-coffe-tab-pane" type="button" role="tab"
+                        aria-controls="iced-coffe-tab-pane" aria-selected="false">Gelados</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="specials-coffee-tab" data-bs-toggle="tab" data-bs-target="#specials-coffee-tab-pane"
-                        type="button" role="tab" aria-controls="specials-coffee-tab-pane" aria-selected="false">Especiais</button>
+                    <button class="nav-link" id="specials-coffee-tab" data-bs-toggle="tab"
+                        data-bs-target="#specials-coffee-tab-pane" type="button" role="tab"
+                        aria-controls="specials-coffee-tab-pane" aria-selected="false">Especiais</button>
                 </li>
             </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="espresso-pane" role="tabpanel" aria-labelledby="espresso" tabindex="0">Café Expresso</div>
-                <div class="tab-pane fade" id="cappuccinos-tab-pane" role="tabpanel" aria-labelledby="cappuccinos-tab" tabindex="0">Cappuccinos</div>
-                <div class="tab-pane fade" id="iced-coffe-tab-pane" role="tabpanel" aria-labelledby="iced-coffe-tab" tabindex="0">Cafés Gelados</div>
-                <div class="tab-pane fade" id="specials-coffee-tab-pane" role="tabpanel" aria-labelledby="specials-coffee-tab" tabindex="0">Cafés Especiais</div>
+            <div class="tab-content" id="coffeesTabContent">
+                <div class="tab-pane fade show active" id="espresso-pane" role="tabpanel" aria-labelledby="espresso"
+                    tabindex="0">
+                    <!-- Coffee Cards -->
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1436491911682-72ab1d398f59?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Xícara de Café">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://plus.unsplash.com/premium_photo-1673545518947-ddf3240090b1?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Xícara de Café">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fGNvZmZlZSUyMGN1cHxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Xícara de Café">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1611162458324-aae1eb4129a4?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Xícara de Café">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="cappuccinos-tab-pane" role="tabpanel" aria-labelledby="cappuccinos-tab"
+                    tabindex="0">Cappuccinos</div>
+                <div class="tab-pane fade" id="iced-coffe-tab-pane" role="tabpanel" aria-labelledby="iced-coffe-tab"
+                    tabindex="0">Cafés Gelados</div>
+                <div class="tab-pane fade" id="specials-coffee-tab-pane" role="tabpanel"
+                    aria-labelledby="specials-coffee-tab" tabindex="0">Cafés Especiais</div>
             </div>
         </section>
     </main>
