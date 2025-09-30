@@ -1,12 +1,19 @@
+:root {
+    --bs-link-color: #ac7b4a;
+    --bs-link-hover-color: #8d653c;;
+}
 .btn.btn-primary {
     --bs-btn-bg: #654321;
     --bs-btn-border-color: #654321;
     --bs-btn-hover-bg: #8d653c;
     --bs-btn-hover-border-color: #654321;
-    --bs-btn-active-bg: #55381b;
+    --bs-btn-active-bg: #80572e;
 }
 main {
     margin-top: 5rem;
+}
+section {
+    scroll-margin-top: 6rem; /* Só aplica quando der scroll no elemento */
 }
 /* Tamanho do carrosel */
 .carousel-item {
@@ -22,4 +29,8 @@ main {
     height: 100%;
     background: linear-gradient(transparent, rgb(31,31,31));
     position: absolute; /* O efeito fica por cima do carrosel */
+}
+.card.card-menu img {
+    height: 300px;
+    object-fit: cover;
 }
